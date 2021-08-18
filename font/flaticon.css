@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?26f9897b1a39d57f5030d8bd19a9b9b3") format("truetype"),
+url("./flaticon.woff?26f9897b1a39d57f5030d8bd19a9b9b3") format("woff"),
+url("./flaticon.woff2?26f9897b1a39d57f5030d8bd19a9b9b3") format("woff2"),
+url("./flaticon.eot?26f9897b1a39d57f5030d8bd19a9b9b3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?26f9897b1a39d57f5030d8bd19a9b9b3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-photo-camera-vintage:before {
+    content: "\f101";
+}
+.flaticon-shuttle:before {
+    content: "\f102";
+}
+.flaticon-devices:before {
+    content: "\f103";
+}
+.flaticon-pie-chart:before {
+    content: "\f104";
+}
+.flaticon-tablet:before {
+    content: "\f105";
+}
+.flaticon-smartphone:before {
+    content: "\f106";
+}

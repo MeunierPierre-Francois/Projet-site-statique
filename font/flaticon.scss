@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?26f9897b1a39d57f5030d8bd19a9b9b3") format("truetype"),
+url("./flaticon.woff?26f9897b1a39d57f5030d8bd19a9b9b3") format("woff"),
+url("./flaticon.woff2?26f9897b1a39d57f5030d8bd19a9b9b3") format("woff2"),
+url("./flaticon.eot?26f9897b1a39d57f5030d8bd19a9b9b3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?26f9897b1a39d57f5030d8bd19a9b9b3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "photo-camera-vintage": "\f101",
+    "shuttle": "\f102",
+    "devices": "\f103",
+    "pie-chart": "\f104",
+    "tablet": "\f105",
+    "smartphone": "\f106",
+);
+
+.flaticon-photo-camera-vintage:before {
+    content: map-get($flaticon-map, "photo-camera-vintage");
+}
+.flaticon-shuttle:before {
+    content: map-get($flaticon-map, "shuttle");
+}
+.flaticon-devices:before {
+    content: map-get($flaticon-map, "devices");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon-map, "pie-chart");
+}
+.flaticon-tablet:before {
+    content: map-get($flaticon-map, "tablet");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}

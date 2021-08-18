@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.wrap {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.section {
+  padding: 4rem 1rem;
+}
+p {
+  color: #777777;
+}
+.title {
+  color: #222222;
+}
+.caps-title {
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.button {
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+.gradient-color {
+  background: linear-gradient(to right, #8490ff, #62bcfcb4);
+}
+.section-title {
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+
+/*
+----------Main-NavBar----------
+*/
+.nav-link:hover{
+  color: #8490ff !important ;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/*
+----------Main-header----------
+*/
+.main-header-section {
+  padding-bottom: 0;
+}
+.main-header {
+  background-color: rgba(187, 197, 218, 0.116);
+}
+.main-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+.main-title-bis {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+.main-header-text {
+  padding: 5rem 0;
+}
+
+/*
+----------Main-content-personal-details----------
+*/
+.main-content-personnal-details-text {
+  margin-top: 4rem;
+}
+
+/*
+----------Main-content-services----------
+*/
+.main-services-item {
+  text-align: center;
+  margin: 3rem 0;
+}
+.service-flaticon {
+  font-size: 2rem;
+}
+
+/*
+----------Main-content-stats----------
+*/
+.stats {
+  margin: 2rem 0;
+}
+.stats p {
+  color: white;
+  text-align: center;
+}
+.stats-number {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+/*
+----------Main-content-projects----------
+*/
+.main-projects-item {
+  text-align: center;
+}
+.main-projects-text {
+  margin: 1rem;
+}
+.main-projects-text h3 {
+  margin: 0;
+}
+.main-projects-text p {
+  margin: 0;
+}
+/*
+----------Main-content-blog----------
+*/
+.miniature-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0 0;
+  border-bottom: solid 2px rgba(187, 197, 218, 0.26);
+}
+.miniature-text p {
+  margin: 0.5rem;
+}
+.last-article-text {
+  margin-top: 1.5rem;
+}
+.article-tile {
+  font-size: 1.2rem;
+}
+
+/*
+----------Main-content-sponso----------
+*/
+.main-content-sponso {
+  background-color: darkblue;
+}
+.sponso-logo {
+  display: none;
+}
+.sponso-logo-tel {
+  text-align: center;
+}
+/*
+----------Footer-content----------
+*/
+.footer-text {
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 2rem;
+}
+.footer-content {
+  background-color: #04091e;
+}
+.footer-title {
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer-text i {
+  color: white;
+  margin: 0 0.8rem 0 0;
+}
+.footer-text span {
+  color: #5b5caf;
+}
+
+/*
+-------------------------------------------------
+--------------------Page About-------------------
+-------------------------------------------------
+*/
+
+/*
+----------About-header----------
+*/
+.secondary-header-text {
+  text-align: center;
+  color: white;
+}
+.secondary-header-text h1 {
+  font-weight: bold;
+}
+.secondary-header-text p {
+  color: white;
+}
+
+/*
+----------About-tool-expertness----------
+*/
+.bar-progress-title {
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+.progress {
+  height: 0.5rem;
+  border: solid 2px rgba(211, 211, 211, 0.692);
+}
+.single-bar-progress {
+  margin: 0 0 2rem 0;
+}
+.bar-progress-text {
+  text-align: right;
+}
+.bar-progress-text p {
+  margin-bottom: 0.3rem;
+}
+.progress-bar {
+  background: linear-gradient(to right, #8490ff, #62bcfcb4);
+}
+.bar-90 {
+  width: 90%;
+}
+.bar-70 {
+  width: 70%;
+}
+.bar-85 {
+  width: 85%;
+}
+.bar-95 {
+  width: 95%;
+}
+
+/*
+----------About-client-feedback----------
+*/
+.client-feedback{
+  background-color: rgba(187, 197, 218, 0.116);
+}
+.feedback-text{
+  display: flex;
+  padding: 1rem;
+}
+.feedback-text span{
+  font-weight: 700;  
+  font-size: 1.2rem;
+  color: black;
+}
+.feedback-mobile{
+  display: none;
+}
+.feedback-container{
+  background-color: white;
+}
+.feedback-text img{
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .sponso-logo {
+    display: flex;
+  }
+  .list-sponso {
+    display: flex;
+    justify-content: space-between;
+  }
+  .feedback-mobile{
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+}
